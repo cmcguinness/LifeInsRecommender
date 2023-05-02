@@ -17,3 +17,6 @@ Edit the Integration Procedure *OpenAI_callGPTSystemUser*; the step callGPT has 
 
 The demo is very simple.  In the OmniScript, the Set Values statement at the beginning prepares the prompt to generate the output we want.  The three Demo buttons allow you to save on some typing, although you are allowed to enter your own text, of course.  Pressing the Analyze button sends the data to the Integration Procedure and retrieves the response.
 
+## Further Information
+
+For more information on this repository and related topics, please subscribe to my [substack newsletter](https://mcguinnessai.substack.com/about).
