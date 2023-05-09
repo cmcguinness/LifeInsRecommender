@@ -9,7 +9,7 @@ This project requires the use of OmniStudio in Salesforce as well as your own AP
 
 ## Installation
 
-To install this, go into the list of OmnScripts in Salesforce, and import the file *Life Ins Recommender.json*.  Do not activate either the OmniScript nor the Integration Procedure.
+To install this, go into the list of OmnScripts in Salesforce, and import the file *Life Ins Recommender.json* if you are running omnistudio, or *Life Ins Recommender for Vlocity NS.json* if you're running an older Vlocity package.  Do not activate either the OmniScript nor the Integration Procedure.
 
 Edit the Integration Procedure *OpenAI_callGPTSystemUser*; the step callGPT has a REST Header for Authorization that needs to be updated with your OpenAI Key.  Once that's done, activate the Integration Procedure.
 
